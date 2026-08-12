@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
     std::cerr << program;
     return 1;
   }
-
+//o day co chut loi.
   const auto n = program.get<int>("n");
   const auto sequence = my_fibonacci::fibonacci_sequence(n);
   for (auto val : sequence) {
