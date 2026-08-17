@@ -1,6 +1,11 @@
-.*
-!.clang*
-!.git*
+#build directories
+build/
+#c/C++ compiled files
+*.o
+*.obj
+#Exercutables
+*.exe
+#IDE files
+.vscode/
+.vs/
 
-build
-install
