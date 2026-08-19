@@ -1,3 +1,3 @@
 #pragma once
 
-int calculate(int a);
+double calculate(double a, double b);
